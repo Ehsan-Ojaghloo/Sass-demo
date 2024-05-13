@@ -1,0 +1,61 @@
+@use "../utils/color" as *;
+
+// green
+
+.side-nav-container.green-theme {
+    background-color: $green;
+}
+
+button.green-theme {
+    background-color: $green;
+    border: 1px solid $green;
+}
+
+button.green-theme:hover {
+    color: $green !important;
+}
+
+span.green-theme {
+    color: $green;
+}
+
+
+// purple
+
+.side-nav-container.purple-theme {
+    background-color: $purple;
+}
+
+button.purple-theme {
+    background-color: $purple;
+    border: 1px solid $purple;
+}
+
+button.purple-theme:hover {
+    color: $purple !important;
+}
+
+span.purple-theme {
+    color: $purple;
+}
+
+
+// blue
+
+.side-nav-container.blue-theme {
+    background-color: $blue;
+}
+
+button.blue-theme {
+    background-color: $blue;
+    border: 1px solid $blue;
+}
+
+button.blue-theme:hover {
+    color: $blue !important;
+}
+
+span.blue-theme {
+    color: $blue;
+}
+
